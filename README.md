@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Eat-n-Split
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eat-n-Split เป็นแอป React สำหรับจัดการและแบ่งบิลกับเพื่อน  
+คุณสามารถเพิ่มเพื่อน เลือกเพื่อน และคำนวณการแบ่งค่าใช้จ่ายระหว่างคุณกับเพื่อนแต่ละคนได้อย่างง่ายดาย
 
-## Available Scripts
+## ฟีเจอร์หลัก
 
-In the project directory, you can run:
+- เพิ่มเพื่อนใหม่ พร้อมรูปโปรไฟล์
+- เลือกเพื่อนเพื่อแบ่งบิล
+- กรอกจำนวนเงินบิลและระบุว่าใครเป็นคนจ่าย
+- ระบบจะคำนวณยอดค้างชำระหรือยอดที่เพื่อนต้องคืนให้โดยอัตโนมัติ
+- แสดงสถานะยอดค้างชำระของแต่ละคน
 
-### `npm start`
+## วิธีใช้งาน
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. คลิก **Add friend** เพื่อเพิ่มเพื่อนใหม่
+2. เลือกเพื่อนที่ต้องการแบ่งบิล
+3. กรอกจำนวนเงินบิลและค่าใช้จ่ายของแต่ละฝ่าย
+4. เลือกว่าใครเป็นคนจ่ายบิล
+5. คลิก **Split bill** เพื่อบันทึกยอดค้างชำระ
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## เทคโนโลยีที่ใช้
 
-### `npm test`
+- React (useState)
+- CSS (สำหรับตกแต่ง UI)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> พัฒนาเพื่อฝึกฝน React และการจัดการ state ในแอปพลิเคชันจริง
